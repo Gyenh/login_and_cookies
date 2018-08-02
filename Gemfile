@@ -7,6 +7,7 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.0'
 
 gem 'bcrypt', '3.1.12'
+gem 'rails-controller-testing'
 
 group :development, :test do
   gem 'sqlite3'
@@ -15,6 +16,9 @@ end
 group :production do
   gem 'pg', '>= 0.18', '< 2.0'
 end
+
+gem 'jquery-rails'
+gem 'jquery'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
